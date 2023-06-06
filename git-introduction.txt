@@ -1,0 +1,63 @@
+GIT -- Code version controller..
+    # download and install git...(https://git-scm.com/downloads)
+    # github or gitlab or bitbucket(account has to be there in any of these sites..)
+
+
+Step1 : Initializing the empty git repository..
+
+    git init 
+
+Step2: Check the status..
+    git status
+
+# step3: Adding the files to the local repository..
+    git add filename  -- for adding the respecive file to the repository
+    git add file1 file2 file3 -- for adding the multiple files to the repository
+    git add . -- for adding all the changed file to the repository..
+
+
+# step4: Commiting the changes which are made..
+    git commit -m "message"
+    git commit -m "First commit"
+
+    If you are doing it for th first time in your system, It will ask you for the git credentials configuration..
+
+# step5: configuring the credentials of the git account..
+
+    git config --global user.email "your gitub email"
+    git config --global user.name "your github username"
+
+# Step6: Create a new repository on the github website..
+
+# Step7: Establish the linkup between local and remote repository.
+
+git remote add origin "github link of the repository"
+git remote add origin https://github.com/sanjeevareddy91/python-9am-april.git
+
+# Step8: Pushing the code changes to the branch..
+
+git push origin branch-name 
+
+git push origin master
+
+
+# Pulling the code from the branch..
+
+git pull origin branch-name
+
+git pull origin master
+
+
+1231/login-funcationality -- 1231-login-funcationality
+1342/forgotpassword-feature
+
+
+
+develop
+qa
+staging
+prod
+
+# creating the branch in the local repository..
+
+git checkout -b branch-name
