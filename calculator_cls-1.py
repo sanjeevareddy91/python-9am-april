@@ -361,7 +361,3 @@
 # btndiv.pack(expand=True,fill="both",side='left')
 
 root.mainloop()
-
-
-
-
