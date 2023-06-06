@@ -60,4 +60,11 @@ prod
 
 # creating the branch in the local repository..
 
-git checkout -b branch-name
+git checkout -b branch-name -- creating the new branch in the local..
+
+git checkout -b 1231-sample-branch
+
+git checkout branch-name ---> this is for checking out the already existed branch in the local..
+
+git fetch - v -- for fetching all the remote branch to the local repository..
+
